@@ -1,4 +1,4 @@
-interface Moveable {
+interface Movable {
     public void moveUp(int up);
     public void moveDown(int down);
     public void moveLeft(int left);
