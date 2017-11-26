@@ -1,6 +1,3 @@
-/**
- abstract Shape
- */
 public abstract class Shape {
     protected String color;
     protected boolean filled;
@@ -23,6 +20,6 @@ public abstract class Shape {
         this.filled = filled;
     }
     public abstract double getArea();
-    public abstract double getParameter();    
+    public abstract double getPerimeter();    
     public abstract String toString();
 }
